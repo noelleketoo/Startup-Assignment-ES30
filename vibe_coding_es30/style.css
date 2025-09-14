@@ -1,3 +1,68 @@
+/* --- Signup Page Enhancements --- */
+.signup-container {
+  text-align: center;
+  padding-top: 24px;
+}
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.app-logo {
+  font-size: 2.2rem;
+  margin-right: 10px;
+}
+.app-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #38a169;
+  letter-spacing: 1px;
+}
+.signup-img {
+  max-width: 220px;
+  width: 100%;
+  margin-bottom: 18px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(56,161,105,0.13);
+  border: 2px solid #c6f6d5;
+}
+.signup-heading {
+  color: #2d3748;
+  margin-bottom: 18px;
+  font-size: 1.3rem;
+}
+.highlight {
+  color: #38a169;
+  font-weight: bold;
+}
+.signup-btn {
+  background: linear-gradient(90deg, #38a169 60%, #68d391 100%);
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 8px rgba(56,161,105,0.10);
+  transition: background 0.2s;
+}
+.signup-btn:hover {
+  background: linear-gradient(90deg, #2f855a 60%, #48bb78 100%);
+}
+.login-option {
+  margin-top: 10px;
+  color: #4a5568;
+  font-size: 1rem;
+}
+.login-option a {
+  color: #38a169;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 500;
+}
 body {
   font-family: Arial, sans-serif;
   background: #f7fafc;
